@@ -1,6 +1,3 @@
-# GettingCleaningData
-Getting and Cleaning Data Course Project
-
 # Data sources
 - Description
   http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
