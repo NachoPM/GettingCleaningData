@@ -24,20 +24,20 @@ require("reshape2")
 
 #Load data
 # Load: activity labels
-activity_labels <- read.table("C:/Users/Igpal/DataScienceRepo/UCI HAR Dataset/activity_labels.txt")[,2]
+activity_labels <- read.table("./activity_labels.txt")[,2]
 
 # Load: data column names
-features <- read.table("C:/Users/Igpal/DataScienceRepo/UCI HAR Dataset/features.txt")[,2]
+features <- read.table("./features.txt")[,2]
 
 # Load Test data (X_test, Y_test and subject_test).
-X_test <- read.table("C:/Users/Igpal/DataScienceRepo/UCI HAR Dataset/test/X_test.txt")
-y_test <- read.table("C:/Users/Igpal/DataScienceRepo/UCI HAR Dataset/test/y_test.txt")
-subject_test <- read.table("C:/Users/Igpal/DataScienceRepo/UCI HAR Dataset/test/subject_test.txt")
+X_test <- read.table("./test/X_test.txt")
+y_test <- read.table("./test/y_test.txt")
+subject_test <- read.table("./test/subject_test.txt")
 
 # Load Train data (X_train, y_train and subject_train).
-X_train <- read.table("C:/Users/Igpal/DataScienceRepo/UCI HAR Dataset/train/X_train.txt")
-y_train <- read.table("C:/Users/Igpal/DataScienceRepo/UCI HAR Dataset/train/y_train.txt")
-subject_train <- read.table("C:/Users/Igpal/DataScienceRepo/UCI HAR Dataset/train/subject_train.txt")
+X_train <- read.table("./train/X_train.txt")
+y_train <- read.table("./train/y_train.txt")
+subject_train <- read.table("./train/subject_train.txt")
 names(X_train) = features
 
 # Assign column names
